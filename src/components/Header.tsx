@@ -17,7 +17,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
-            <Calculator className="h-8 w-8 text-blue-600" />
+            <Calculator className="h-8 w-8 text-brand" />
             <span className="text-xl font-bold text-gray-900">ContaExpert</span>
           </div>
           
@@ -27,7 +27,7 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
+                className="text-gray-700 hover:text-brand transition-colors duration-200 font-medium"
               >
                 {item.name}
               </a>
@@ -55,7 +55,7 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium py-2"
+                  className="text-gray-700 hover:text-brand transition-colors duration-200 font-medium py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}

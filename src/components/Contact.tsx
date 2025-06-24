@@ -49,8 +49,8 @@ const Contact = () => {
                 const Icon = info.icon;
                 return (
                   <div key={index} className="flex items-start space-x-4">
-                    <div className="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg flex-shrink-0">
-                      <Icon className="h-6 w-6 text-blue-600" />
+                    <div className="flex items-center justify-center w-12 h-12 bg-brand-100 rounded-lg flex-shrink-0">
+                      <Icon className="h-6 w-6 text-brand" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">
@@ -59,7 +59,7 @@ const Contact = () => {
                       {info.link !== "#" ? (
                         <a 
                           href={info.link}
-                          className="text-gray-600 hover:text-blue-600 transition-colors"
+                          className="text-gray-600 hover:text-brand transition-colors"
                         >
                           {info.content}
                         </a>
@@ -72,7 +72,7 @@ const Contact = () => {
               })}
             </div>
 
-            <div className="bg-blue-50 p-8 rounded-lg">
+            <div className="bg-brand-50 p-8 rounded-lg">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
                 ¿Listo para comenzar?
               </h3>
@@ -80,7 +80,7 @@ const Contact = () => {
                 Agenda una consulta gratuita y descubre cómo podemos ayudarte 
                 a optimizar tus procesos contables y fiscales.
               </p>
-              <button className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold">
+              <button className="w-full bg-brand text-white px-6 py-3 rounded-lg hover:bg-brand-dark transition-colors font-semibold">
                 Agendar Consulta Gratuita
               </button>
             </div>
@@ -99,7 +99,7 @@ const Contact = () => {
                   </label>
                   <input 
                     type="text"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand focus:border-transparent outline-none transition-colors"
                     placeholder="Tu nombre"
                   />
                 </div>
@@ -109,7 +109,7 @@ const Contact = () => {
                   </label>
                   <input 
                     type="text"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand focus:border-transparent outline-none transition-colors"
                     placeholder="Nombre de tu empresa"
                   />
                 </div>
@@ -121,7 +121,7 @@ const Contact = () => {
                 </label>
                 <input 
                   type="email"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-colors"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand focus:border-transparent outline-none transition-colors"
                   placeholder="tu@email.com"
                 />
               </div>
@@ -132,7 +132,7 @@ const Contact = () => {
                 </label>
                 <input 
                   type="tel"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-colors"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand focus:border-transparent outline-colors"
                   placeholder="+52 (55) 1234-5678"
                 />
               </div>
@@ -143,14 +143,14 @@ const Contact = () => {
                 </label>
                 <textarea 
                   rows={4}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-colors resize-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand focus:border-transparent outline-none transition-colors resize-none"
                   placeholder="Cuéntanos sobre tu proyecto..."
                 ></textarea>
               </div>
               
               <button 
                 type="submit"
-                className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold"
+                className="w-full bg-brand text-white px-6 py-3 rounded-lg hover:bg-brand-dark transition-colors font-semibold"
               >
                 Enviar Mensaje
               </button>
