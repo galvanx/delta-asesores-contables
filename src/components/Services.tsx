@@ -42,7 +42,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="servicios" className="py-16 lg:py-24 bg-white">
+    <section id="servicios" className="py-16 lg:py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -60,10 +60,10 @@ const Services = () => {
             return (
               <div 
                 key={index}
-                className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-shadow duration-300 hover:border-blue-200"
+                className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-shadow duration-300 hover:border-brand-200"
               >
-                <div className="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-lg mb-6">
-                  <Icon className="h-8 w-8 text-blue-600" />
+                <div className="flex items-center justify-center w-16 h-16 bg-brand-100 rounded-lg mb-6">
+                  <Icon className="h-8 w-8 text-brand" />
                 </div>
                 
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
@@ -77,7 +77,7 @@ const Services = () => {
                 <ul className="space-y-2">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center text-sm text-gray-600">
-                      <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-3"></div>
+                      <div className="w-1.5 h-1.5 bg-brand rounded-full mr-3"></div>
                       {feature}
                     </li>
                   ))}

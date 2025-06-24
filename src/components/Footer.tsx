@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Calculator className="h-8 w-8 text-blue-400" />
+              <Calculator className="h-8 w-8 text-brand" />
               <span className="text-xl font-bold">ContaExpert</span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
@@ -18,15 +18,15 @@ const Footer = () => {
             </p>
             <div className="space-y-2">
               <div className="flex items-center space-x-3">
-                <Phone className="h-4 w-4 text-blue-400" />
+                <Phone className="h-4 w-4 text-brand" />
                 <span className="text-gray-300">+52 (55) 1234-5678</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="h-4 w-4 text-blue-400" />
+                <Mail className="h-4 w-4 text-brand" />
                 <span className="text-gray-300">info@contaexpert.com</span>
               </div>
               <div className="flex items-center space-x-3">
-                <MapPin className="h-4 w-4 text-blue-400" />
+                <MapPin className="h-4 w-4 text-brand" />
                 <span className="text-gray-300">Av. Reforma 123, Col. Centro, CDMX</span>
               </div>
             </div>
@@ -36,11 +36,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Servicios</h3>
             <ul className="space-y-2">
-              <li><a href="#servicios" className="text-gray-300 hover:text-white transition-colors">Contabilidad General</a></li>
-              <li><a href="#servicios" className="text-gray-300 hover:text-white transition-colors">Asesoría Fiscal</a></li>
-              <li><a href="#servicios" className="text-gray-300 hover:text-white transition-colors">Auditoría</a></li>
-              <li><a href="#servicios" className="text-gray-300 hover:text-white transition-colors">Nóminas</a></li>
-              <li><a href="#servicios" className="text-gray-300 hover:text-white transition-colors">Consultoría</a></li>
+              <li><a href="#servicios" className="text-gray-300 hover:text-brand transition-colors">Contabilidad General</a></li>
+              <li><a href="#servicios" className="text-gray-300 hover:text-brand transition-colors">Asesoría Fiscal</a></li>
+              <li><a href="#servicios" className="text-gray-300 hover:text-brand transition-colors">Auditoría</a></li>
+              <li><a href="#servicios" className="text-gray-300 hover:text-brand transition-colors">Nóminas</a></li>
+              <li><a href="#servicios" className="text-gray-300 hover:text-brand transition-colors">Consultoría</a></li>
             </ul>
           </div>
 
@@ -48,11 +48,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Enlaces</h3>
             <ul className="space-y-2">
-              <li><a href="#inicio" className="text-gray-300 hover:text-white transition-colors">Inicio</a></li>
-              <li><a href="#nosotros" className="text-gray-300 hover:text-white transition-colors">Sobre Nosotros</a></li>
-              <li><a href="#contacto" className="text-gray-300 hover:text-white transition-colors">Contacto</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Recursos</a></li>
+              <li><a href="#inicio" className="text-gray-300 hover:text-brand transition-colors">Inicio</a></li>
+              <li><a href="#nosotros" className="text-gray-300 hover:text-brand transition-colors">Sobre Nosotros</a></li>
+              <li><a href="#contacto" className="text-gray-300 hover:text-brand transition-colors">Contacto</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-brand transition-colors">Blog</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-brand transition-colors">Recursos</a></li>
             </ul>
           </div>
         </div>
@@ -63,10 +63,10 @@ const Footer = () => {
               © 2024 ContaExpert. Todos los derechos reservados.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <a href="#" className="text-gray-400 hover:text-brand text-sm transition-colors">
                 Política de Privacidad
               </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <a href="#" className="text-gray-400 hover:text-brand text-sm transition-colors">
                 Términos de Servicio
               </a>
             </div>

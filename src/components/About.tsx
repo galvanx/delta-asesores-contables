@@ -21,7 +21,7 @@ const About = () => {
   ];
 
   return (
-    <section id="nosotros" className="py-16 lg:py-24 bg-gray-50">
+    <section id="nosotros" className="py-16 lg:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -41,15 +41,15 @@ const About = () => {
 
             <div className="grid grid-cols-3 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>
+                <div className="text-3xl font-bold text-brand mb-2">15+</div>
                 <div className="text-gray-600">Años de Experiencia</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">500+</div>
+                <div className="text-3xl font-bold text-brand mb-2">500+</div>
                 <div className="text-gray-600">Clientes Atendidos</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">98%</div>
+                <div className="text-3xl font-bold text-brand mb-2">98%</div>
                 <div className="text-gray-600">Satisfacción</div>
               </div>
             </div>
@@ -74,8 +74,8 @@ const About = () => {
               const Icon = value.icon;
               return (
                 <div key={index} className="text-center">
-                  <div className="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mx-auto mb-4">
-                    <Icon className="h-8 w-8 text-blue-600" />
+                  <div className="flex items-center justify-center w-16 h-16 bg-brand-100 rounded-full mx-auto mb-4">
+                    <Icon className="h-8 w-8 text-brand" />
                   </div>
                   <h4 className="text-xl font-semibold text-gray-900 mb-2">
                     {value.title}

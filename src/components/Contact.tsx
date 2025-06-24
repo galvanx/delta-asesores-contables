@@ -30,7 +30,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contacto" className="py-16 lg:py-24 bg-white">
+    <section id="contacto" className="py-16 lg:py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -86,7 +86,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="bg-gray-50 p-8 rounded-lg">
+          <div className="bg-white p-8 rounded-lg shadow-sm">
             <h3 className="text-xl font-semibold text-gray-900 mb-6">
               Envíanos un mensaje
             </h3>
@@ -132,7 +132,7 @@ const Contact = () => {
                 </label>
                 <input 
                   type="tel"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand focus:border-transparent outline-colors"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand focus:border-transparent outline-none transition-colors"
                   placeholder="+52 (55) 1234-5678"
                 />
               </div>
