@@ -20,7 +20,7 @@ const Header = () => {
             <img
               src="DELTA.png"
               alt="Delta Asesores Contables"
-              className="h-16 w-auto"
+              className="h-14 w-auto"
             />
           </div>
 
