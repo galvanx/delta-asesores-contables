@@ -18,7 +18,7 @@ const Header = () => {
           <div className="flex items-center space-x-2">
             {/* Aquí sustituimos el ícono y texto por una imagen de logo */}
             <img
-              src="delta.png"
+              src="DELTA.png"
               alt="Delta Asesores Contables"
               className="h-8 w-auto"
             />
