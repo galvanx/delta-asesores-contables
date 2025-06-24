@@ -18,7 +18,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
             <Calculator className="h-8 w-8 text-brand" />
-            <span className="text-xl font-bold text-gray-900">ContaExpert</span>
+            <span className="text-xl font-bold text-gray-900">DELTA Asesores Contables</span>
           </div>
           
           {/* Desktop Navigation */}
