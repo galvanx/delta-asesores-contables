@@ -1,5 +1,4 @@
-
-import { Calculator, Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,8 +8,12 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Calculator className="h-8 w-8 text-brand" />
-              <span className="text-xl font-bold">ContaExpert</span>
+              {/* Aquí sustituimos el icono y texto por una imagen de logo */}
+              <img
+                src="DELTA.png"
+                alt="Delta Asesores Contables"
+                className="h-12 w-auto"
+              />
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               Tu despacho contable de confianza con más de 15 años de experiencia 
@@ -27,7 +30,10 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-brand" />
-                <span className="text-gray-300">C. Cam. de los Kiwis 621, San Jerónimo 4o. Sector, 64630 Monterrey, N.L.</span>
+                <span className="text-gray-300">
+                  C. Cam. de los Kiwis 621, San Jerónimo 4o. Sector, 64630 Monterrey,
+                  N.L.
+                </span>
               </div>
             </div>
           </div>
