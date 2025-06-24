@@ -1,5 +1,4 @@
-
-import { Calculator, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const Header = () => {
@@ -17,10 +16,14 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
-            <Calculator className="h-8 w-8 text-brand" />
-            <span className="text-xl font-bold text-gray-900">DELTA Asesores Contables</span>
+            {/* Aquí sustituimos el ícono y texto por una imagen de logo */}
+            <img
+              src="/delta.png"
+              alt="Delta Asesores Contables"
+              className="h-8 w-auto"
+            />
           </div>
-          
+
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             {navigation.map((item) => (
