@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-4">
               {/* Aquí sustituimos el icono y texto por una imagen de logo */}
               <img
-                src="DELTA.png"
+                src="DELTAblanco.png"
                 alt="Delta Asesores Contables"
                 className="h-12 w-auto"
               />
