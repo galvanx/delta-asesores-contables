@@ -27,7 +27,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-brand" />
-                <span className="text-gray-300">Av. Reforma 123, Col. Centro, CDMX</span>
+                <span className="text-gray-300">C. Cam. de los Kiwis 621, San Jerónimo 4o. Sector, 64630 Monterrey, N.L.</span>
               </div>
             </div>
           </div>
