@@ -16,7 +16,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
-              Tu despacho contable de confianza con más de 15 años de experiencia 
+              Tu despacho contable de confianza con más de 25 años de experiencia 
               brindando servicios profesionales de contabilidad y asesoría fiscal.
             </p>
             <div className="space-y-2">
