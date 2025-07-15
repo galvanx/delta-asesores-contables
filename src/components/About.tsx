@@ -29,7 +29,7 @@ const About = () => {
               Sobre Nosotros
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              ContaExpert es un despacho contable con más de 15 años de experiencia 
+              ContaExpert es un despacho contable con más de 25 años de experiencia 
               en el mercado, especializado en brindar servicios integrales de contabilidad, 
               auditoría y asesoría fiscal a empresas de todos los tamaños.
             </p>
